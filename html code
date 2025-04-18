@@ -1,0 +1,195 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zeyad - 3D Modeler Portfolio</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #e0f7fa, #fff);
+  color: #333;
+}
+
+header {
+  background: linear-gradient(to right, #4fc3f7, #81d4fa);
+  padding: 40px 20px;
+  text-align: center;
+  color: #fff;
+}
+
+header h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2em;
+}
+
+section {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.showcase {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.model {
+  background-color: #f0f9ff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.model:hover {
+  transform: scale(1.03);
+}
+
+.model iframe {
+  width: 100%;
+  height: 300px;
+}
+
+.model-info {
+  padding: 15px;
+}
+
+.model-info h3 {
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  color: #0288d1;
+}
+
+.model-info p {
+  font-size: 0.95em;
+  color: #555;
+}
+
+.contact {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(to right, #b2ff59, #ccff90);
+}
+
+.contact h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #2e7d32;
+}
+
+.whatsapp-btn, .discord-btn {
+  background-color: #25d366;
+  color: white;
+  padding: 15px 25px;
+  font-size: 1.1em;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.discord-btn {
+  background-color: #7289da;
+}
+
+.whatsapp-btn:hover {
+  background-color: #1ebe57;
+}
+
+.discord-btn:hover {
+  background-color: #5b6eae;
+}
+
+footer {
+  background-color: #e0f2f1;
+  color: #555;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+}
+
+.services {
+  background: #fff3e0;
+  padding: 40px 20px;
+  border-top: 2px solid #ffb300;
+}
+
+.services h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #f57c00;
+}
+
+.services ul {
+  list-style: none;
+  font-size: 1.1em;
+  line-height: 1.8;
+  max-width: 600px;
+  margin: auto;
+  padding-left: 20px;
+}
+
+.services ul li::before {
+  content: '•';
+  color: #f57c00;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+  </style>
+</head>
+<body>  <header>
+    <h1>Zeyad - 3D Modeler</h1>
+    <p>High-Quality 3D Models at Low Prices - Real Value, Professional Results</p>
+  </header>  <section>
+    <h2 style="text-align: center; margin-bottom: 30px;">My 3D Model Showcase</h2>
+    <div class="showcase">
+      <div class="model">
+        <iframe title="Solo leveling statue" src="https://sketchfab.com/models/15e2c1d466444961b5398404b6bcf4cb/embed"></iframe>
+      </div>
+      <div class="model">
+        <iframe title="Beru" src="https://sketchfab.com/models/ddd75f1237e4488ba5f7ee5477b542ac/embed"></iframe>
+      </div>
+      <div class="model">
+        <iframe title="Epilogue Dagger" src="https://sketchfab.com/models/3ae3f94578384fc2be92370fa243e6c0/embed"></iframe>
+      </div>
+      <div class="model">
+        <iframe title="dragon_shield" src="https://sketchfab.com/models/f4b900642ef644f897188c78597bfeaf/embed"></iframe>
+      </div>
+    </div>
+  </section>  <section class="services">
+    <h2>🛠️ My Services</h2>
+    <ul>
+      <li>🚘 3D Cars</li>
+      <li>🗣️ 3D Characters</li>
+      <li>🐠🐋🐟 3D Fish</li>
+      <li>🛠️ 3D Tools</li>
+      <li>👹 3D Monsters</li>
+      <li>... and more</li>
+    </ul>
+    <p style="text-align:center; margin-top: 20px; font-size: 1.1em;">
+      <strong>Payments 💰:</strong> via paypal : $5+<br>
+      <strong>Portfolio:</strong> <a href="https://discord.gg/v52HDMMH" target="_blank">https://discord.gg/v52HDMMH</a>
+    </p>
+  </section>  <section class="contact">
+    <h2>Contact Me</h2>
+    <p>Let's work together! Click below to start chatting with me:</p>
+    <a class="whatsapp-btn" href="https://wa.me/966546563803" target="_blank">Chat on WhatsApp</a>
+    <a class="discord-btn" href="https://discordapp.com/users/1344379036864086177" target="_blank">Message on Discord</a>
+  </section>  <footer>
+    &copy; 2025 Zeyad. All rights reserved.
+  </footer></body>
+</html>
